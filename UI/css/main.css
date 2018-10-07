@@ -1,9 +1,16 @@
+
+@import "modules/branding.css";
 body{
-    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    font: 15px/1.5 Arial, Roboto,sans-serif;
     padding:0;
     margin:0;
     min-height: 100%;
     background-color: aliceblue;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
 }
 .main{
   min-height: 100%;
@@ -25,7 +32,7 @@ header .highlight, header .current a{
     color: #e8491d;
   }
 .container{
-    width: 80%;
+    /*width: 80%;*/
     overflow: hidden;
 }
 
@@ -35,11 +42,11 @@ header .highlight, header .current a{
 }
 
 .left, .right {
-  width: 25%;
+  width: 10%;
 }
 
 .middle {
-  width: 50%;
+  width: 80%;
 }
 .row:after {
   content: "";
@@ -79,10 +86,16 @@ header #sign_up_button{
     text-align: center;
     width:30%;
     padding:10px;
+    color: rgb(109, 109, 209);
   }
   
   #boxes .box img{
-    width:90px;
+    width:120px;
+    height:120px;
+  }
+
+  #boxes .box h3{
+    color: #e8491d
   }
 
  
