@@ -1,5 +1,6 @@
 
 @import "modules/branding.css";
+@import "modules/form.css";
 body{
     font: 15px/1.5 Arial, Roboto,sans-serif;
     padding:0;
@@ -16,7 +17,7 @@ img{
   min-height: 100%;
 }
 header, footer{
-    background-color: #7283AA;
+    background-color:rgb(109, 109, 209);
     color:white;
     height: 25%;
 }
@@ -32,7 +33,7 @@ header .highlight, header .current a{
     color: #e8491d;
   }
 .container{
-    /*width: 80%;*/
+    width: 80%;
     overflow: hidden;
 }
 
