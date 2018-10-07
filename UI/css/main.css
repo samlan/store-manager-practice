@@ -1,0 +1,97 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    min-height: 100%;
+    background-color: aliceblue;
+}
+.main{
+  min-height: 100%;
+}
+header, footer{
+    background-color: #7283AA;
+    color:white;
+    height: 25%;
+}
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+  }
+
+  header #logo{
+    float:left;
+  }
+  hr{
+    color: #e8491d;
+  }
+.container{
+    width: 80%;
+    overflow: hidden;
+}
+
+.column {
+  float: left;
+  
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header #sign_up_button{
+    float:right;
+    height:50px;
+    /*background:#e8491d;*/
+    background-color:orange;
+    border:0;
+    margin:5px;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+  }
+  header #log_in_button{
+    float:right;
+    height:50px;
+    /*background:#e8491d;*/
+    background-color:green;
+    border:0;
+    margin:5px;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+  }
+
+  /* Boxes */
+  #boxes{
+    margin-top:20px;
+  }
+  
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+  }
+  
+  #boxes .box img{
+    width:90px;
+  }
+
+ 
+
+.vertical-menu a {
+    background-color: #7283AA; /* Grey background color */
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    
+    text-decoration: none; /* Remove underline from links */
+}
