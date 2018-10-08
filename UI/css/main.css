@@ -6,7 +6,7 @@ body{
     padding:0;
     margin:0;
     min-height: 100%;
-    background-color: aliceblue;
+    background-color: rgb(109,109,209);
 }
 
 img{
@@ -21,19 +21,21 @@ header, footer{
     color:white;
     height: 25%;
 }
-header .highlight, header .current a{
+ .highlight, .current a{
     color:#e8491d;
     font-weight:bold;
   }
 
   header #logo{
     float:left;
+    width:30%;
   }
   hr{
-    color: #e8491d;
+    margin: 0px;
+    border: 1px solid crimson;
   }
 .container{
-    width: 80%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -57,6 +59,7 @@ header .highlight, header .current a{
 header #sign_up_button{
     float:right;
     height:50px;
+    width: 25%;
     /*background:#e8491d;*/
     background-color:orange;
     border:0;
@@ -68,7 +71,7 @@ header #sign_up_button{
   header #log_in_button{
     float:right;
     height:50px;
-    /*background:#e8491d;*/
+    width:25%;
     background-color:green;
     border:0;
     margin:5px;
@@ -76,6 +79,20 @@ header #sign_up_button{
     padding-right:20px;
     color:#ffffff;
   }
+
+  header input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#search_n_login{
+  float: right;
+  width:70%;
+}
 
   /* Boxes */
   #boxes{
@@ -87,7 +104,7 @@ header #sign_up_button{
     text-align: center;
     width:30%;
     padding:10px;
-    color: rgb(109, 109, 209);
+    color:white;
   }
   
   #boxes .box img{
@@ -102,8 +119,8 @@ header #sign_up_button{
  
 
 .vertical-menu a {
-    background-color: white; /* Grey background color */
-    color: rgb(109, 109, 209); /* Black text color */
+    background-color: rgb(109, 109, 209); /* Grey background color */
+    color: white; /* Black text color */
     display: block; /* Make the links appear below each other */
     padding: 12px; /* Add some padding */
     
