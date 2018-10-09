@@ -5,7 +5,12 @@
     margin: auto;
 }
 .imgcontainer_2{
-    transform: translateY(-20%);
+    /*transform: translateY(-20%);*/
+    text-align: center;
+    margin: 24px 0 12px 0;
+    
+    width: 100%;
+    border-radius: 50%;
     
 }
 
