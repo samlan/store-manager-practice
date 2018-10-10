@@ -17,7 +17,7 @@
             </header>
             <hr>
             <div class="main_page3">
-                <div class="login-page">
+                <div class="login-form">
                     <h2>Product Details</h2>
                     <form>
                         <fieldset>
@@ -25,37 +25,52 @@
                            <p>
                               <label style="color:rgb(109,109,209)">Product Item</label>
                               <select id = "productList">
-                                <option value = "1">acer laptop</option>
-                                <option value = "2">acer chromebook</option>
-                                <option value = "3">desktop</option>
-                                <option value = "4">hp laptop</option>
-                                <option value = "5">macbook pro</option>
-                                <option value = "6">samsung chromebook</option>
-                                <option value = "7">imac</option>
-                                <option value = "8">android pixel</option>
-                                <option value = "9">android lg</option>
-                                <option value = "10">android htc</option>
-                                <option value = "11">sony xperium</option>
-                                <option value = "12">Iphone 6</option>
-                                <option value = "13">Iphone 7</option>
-                                <option value = "14">Iphone X</option>
-                                <option value = "15">Samsung Tablet</option>
-                                <option value = "16">Sony Xperia</option>
-                                <option value = "17">apple tv</option>
-                                <option value = "18">lg tv</option>
-                                <option value = "19">sony tv</option>
+                                <option value = "acer laptop">acer laptop</option>
+                                <option value = "acer chromebook">acer chromebook</option>
+                                <option value = "desktop">desktop</option>
+                                <option value = "hp laptop">hp laptop</option>
+                                <option value = "macbook pro">macbook pro</option>
+                                <option value = "samsung chromebook">samsung chromebook</option>
+                                <option value = "imac">imac</option>
+                                <option value = "android pixel">android pixel</option>
+                                <option value = "android lg">android lg</option>
+                                <option value = "android htc">android htc</option>
+                                <option value = "sony xperium">sony xperium</option>
+                                <option value = "Iphone 6">Iphone 6</option>
+                                <option value = "Iphone 7">Iphone 7</option>
+                                <option value = "Iphone X">Iphone X</option>
+                                <option value = "Samsung Tablet">Samsung Tablet</option>
+                                <option value = "Sony Xperia">Sony Xperia</option>
+                                <option value = "Apple TV">apple tv</option>
+                                <option value = "LG TV">lg tv</option>
+                                <option value = "Sony TV">sony tv</option>
                               </select>
+                              <label style="color:rgb(109,109,209)">Quantity</label><input id="quantity" type="text" style="width:30%">
                            </p>
+                          
                         </fieldset>
-                        <button onclick="AddToCart()" class="btn">Add To Cart</button>
+                        <button onclick="return addToCart()" class="btn">Add To Cart</button>
                      </form>
                      
                 </div>
+            </div>
+            <div id="order_record">
+                <table id="tb">
+                    <thead>
+                        <tr>
+                            <th>ProductName</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <button>Create Sale Record</button>
             </div>
             <hr>
             <footer>
                 <p>Store Manager, Copyright &copy;</p>
             </footer>
-        
+      <script src="./js/storeManager.js"></script>  
     </body>
 </html>
