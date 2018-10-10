@@ -11,6 +11,7 @@ function addToCart(){
     cell1.innerHTML = prod;
     cell2.innerHTML = 'Ksh 20.00';
     cell3.innerHTML = quant;
-    return false;
     //document.getElementById('order_record').style.visibility = visible;
+    return false;
+    //
 }

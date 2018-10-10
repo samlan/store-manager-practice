@@ -99,3 +99,6 @@ legend,option{
 select{
     width:100px;
 }
+#order_record button{
+    width:25%;
+}
