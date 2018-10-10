@@ -5,6 +5,14 @@
     padding: 8% 0 0;
     margin: auto;
 }
+
+.main_page3{
+    width:75%;
+    min-height:75%;
+    background-color: white;
+    padding: 8% 0 0;
+    margin: auto;
+}
 .imgcontainer_2{
     /*transform: translateY(-20%);*/
     text-align: center;
@@ -37,6 +45,8 @@ h2 {
 
 .btn{
     border: 10px;
+    border-radius: 10px;
+    border-color: red;
 }
 
 #data{
@@ -77,4 +87,15 @@ tr:nth-child(odd){
 tr:nth-child(even){
     color: rgb(109,109,209);
     background-color: white;
+}
+fieldset{
+    border-color: rgb(109,109,209);
+}
+
+legend,option{
+    color: red;
+}
+
+select{
+    width:100px;
 }

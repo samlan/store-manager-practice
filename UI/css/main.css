@@ -2,6 +2,7 @@
 @import "modules/branding.css";
 @import "modules/form.css";
 @import "modules/store_attendant.css";
+@import "modules/card.css";
 body{
     font: 15px/1.5 Arial, Roboto,sans-serif;
     padding:0;
