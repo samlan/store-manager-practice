@@ -1,7 +1,7 @@
 .main_page{
     background-color: white;
     /*width: 600px;*/
-    width:100%;
+    width:90%;
     padding: 8% 0 0;
     margin: auto;
 }
@@ -30,10 +30,10 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
-    padding-left:20px;
+    padding-left:80px;
 }
 #attendant_container button{
-    width:30%;
+    width:20%;
     
 }
 
