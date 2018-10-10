@@ -1,6 +1,7 @@
 .main_page{
     background-color: white;
-    width: 600px;
+    /*width: 600px;*/
+    width:100%;
     padding: 8% 0 0;
     margin: auto;
 }
@@ -47,7 +48,7 @@ h2 {
 }
 
 table{
-    width:400px;
+    width:80%;
     margin: 0 auto;
 }
 
