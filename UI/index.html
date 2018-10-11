@@ -15,21 +15,28 @@
                     </div>
                     <div id="search_n_login">
                         <input type="text" placeholder="Search..">
-                        <button onclick="" id="sign_up_button">Sign Up!</button>
-                        <button onclick="" id="log_in_button">Login!</button>
+                        
                     </div>
+                    <nav>
+                        <ul>
+                          <li class="current"><a href="index.html">Home</a></li>
+                          <li><a href="store_attendant_1.html">Store Attendant</a></li>
+                          <li><a href="admin_1.html">Admin</a></li>
+                        </ul>
+                      </nav>
                 </div>
+               
             </header>
-            <hr>
+            
             <div id="branding">
                 <img src="./imgs/branding/michail-sapiton-234263-unsplash-apple-laptop.jpg">
                 <div id="branding-text">
                     <h1>Your clarity</h1>
-                    <h2>One trip away</h2>
-                    <p>We create soul inspiring trips that encourage you to be you</p>
-                    <p><a href="">Get Started Tody</a></p>
+                    <a href="signup.html"><button onclick="" id="sign_up_button">Sign Up!</button></a>
+                    <a href="login.html"><button onclick="" id="log_in_button">Login!</button></a>
                 </div>
             </div>
+            
             <div class="row">
                 <div class="column left">
                     <div class="vertical-menu">
@@ -37,32 +44,39 @@
                         <a href="#">computers</a>
                         <a href="#">mobile phones</a>
                         <a href="#">televisions</a>
-                        <a href="#">office</a>
                     </div>
                 </div>
                 <div class="column middle">
                     <div id="container">
                         <div id="boxes">
-                            <div class="box">
-                                <img src="./imgs/laptops/nathan-dumlao-609933-unsplash-samsung.jpg">
-                                <h3>Computers</h3>
-                                <p>A range of the best laptops & PC's for your needs</p>
-                            </div>
-                            <div class="box">
-                                <img src="imgs/phones/rawpixel-703123-unsplash-iphone7.jpg">
-                                <h3>Mobile Phones</h3>
-                                <p>Android phones and Iphones at affordable prices</p>
-                            </div>
-                            <div class="box">
-                                <img src="./imgs/tv/nikolay-tarashchenko-748663-unsplash-apple-tv.jpg">
-                                <h3>Flatscreens & TV's</h3>
-                                <p>Introducing a new range of screens and TV's</p>
-                            </div>
+
+                            <a href="view_laptops.html">
+                                <div class="box">
+                                    <img src="./imgs/laptops/unsplash-hp.jpg">
+                                    <h3>Computers</h3>
+                                    <p>A range of the best laptops & PC's for your needs</p>
+                                </div>
+                            </a>
+                            <a href="view_mobile_phones.html">
+                                <div class="box">
+                                    <img src="imgs/phones/unsplash-iphonex.jpg">
+                                    <h3>Mobile Phones</h3>
+                                    <p>Android phones and Iphones at affordable prices</p>
+                                </div>
+                            </a>
+                            <a href="view_flatscreens.html">
+                                <div class="box">
+                                    <img src="./imgs/tv/unsplash-apple-tv2.jpg">
+                                    <h3>Flatscreens & TV's</h3>
+                                    <p>Introducing a new range of screens and TV's</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="column right"></div>
             </div>
+            <hr>
             <footer>
                     <p>Store Manager, Copyright &copy;</p>
             </footer>
