@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Store Manager Practice</title>
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="logo">
+                    <h1><span class="highlight">Store</span>Manager</h1>
+                </div>
+                <nav>
+                        <ul>
+                          <li class="current"><a href="index.html">Home</a></li>
+                          <li><a href="store_attendant_1.html">Store Attendant</a></li>
+                          <li><a href="admin_1.html">Admin</a></li>
+                        </ul>
+                      </nav>
+            </div>
+        </header>
+        <hr>
+        <form action="" style="border:1px solid #ccc">
+          <div class="container">
+            <h2>Create Store Attendant Account</h2>
+            
+            <hr>
+
+            <label for="img"><b>Picture</b></label>
+            <input type="image" placeholder="Upload Photo" name="photo" required> 
+        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            
+            <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Admin Privileges?
+            </label>
+            
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        
+            <div class="clearfix">
+              <button type="button" class="cancelbtn">Cancel</button>
+              <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+          </div>
+        </form>
+        <hr>
+        <footer>
+            <p>Store Manager, Copyright &copy;</p>
+        </footer>
+        </body>
+</html>
