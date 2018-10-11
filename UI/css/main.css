@@ -1,0 +1,185 @@
+
+@import "modules/branding.css";
+@import "modules/form.css";
+@import "modules/store_attendant.css";
+@import "modules/card.css";
+@import "modules/admin.css";
+body{
+    font: 15px/1.5 Arial, Roboto,sans-serif;
+    padding:0;
+    margin:0;
+    min-height: 100%;
+    background-color: rgb(109,109,209);
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  border-radius:10px;
+}
+.main{
+  min-height: 100%;
+}
+header, footer{
+    display: block;
+    background-color:rgb(109, 109, 209);
+    color:white;
+    height: 100px;
+}
+ .highlight, .current a{
+    color:#e8491d;
+    font-weight:bold;
+  }
+
+  header #logo{
+    float:left;
+    width:30%;
+  }
+
+  header nav{
+    float:left;
+    margin-top:10px;
+  }
+
+  header a{
+    color:white;
+    text-decoration:none;
+    text-transform: lowercase;
+    font-size:16px;
+  }
+  
+  header li{
+    
+    display:inline;
+    padding: 0 20px 0 20px;
+  } 
+  hr{
+    margin: 0px;
+    border: 1px solid crimson;
+  }
+
+  footer{
+    text-align: center;
+  }
+.container{
+    
+    display: -ms-grid;
+    
+}
+.container2{
+  width:80%;
+}
+
+.column {
+  float: left;
+  
+}
+
+.left, .right {
+  width: 10%;
+}
+
+.middle {
+  width: 80%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#sign_up_button{
+    
+    border-radius:10px;
+    height:50px;
+    width: 25%;
+    background-color:orange;
+    border:0;
+    margin:5px;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+  }
+   #log_in_button{
+    /*float:right;*/
+    border-radius: 10px;
+    height:50px;
+    width:25%;
+    background-color:green;
+    border:0;
+    margin:5px;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+  }
+
+  header input[type=text] {
+    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#search_n_login{
+  float: right;
+  width:33%;
+}
+
+  /* Boxes */
+  #boxes{
+    margin-top:20px;
+  }
+  
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+    color:white;
+  }
+  
+  #boxes .box img{
+    width:120px;
+    height:120px;
+  }
+
+  #boxes .box h3{
+    color: #e8491d
+  }
+
+ 
+
+.vertical-menu a {
+    background-color: rgb(109, 109, 209); /* Grey background color */
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    
+    text-decoration: none; /* Remove underline from links */
+}
+
+* Set a style for all buttons */
+button {
+    background-color: rgb(109, 109, 209);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+.view_products{
+  width:100%;
+  background-color: white;
+  display: flex;                       /* establish flex container */
+  flex-wrap: wrap;                     /* enable flex items to wrap */
+  justify-content: space-around;
+}

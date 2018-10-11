@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Store Manager Practice</title>
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        
+            <header>
+                <div class="container">
+                    <div id="logo">
+                        <h1><span class="highlight">Store</span>Manager</h1>
+                    </div>
+                    <nav>
+                            <ul>
+                              <li class="current"><a href="index.html">Home</a></li>
+                              <li><a href="store_attendant_1.html">Store Attendant</a></li>
+                              <li><a href="admin_1.html">Admin</a></li>
+                            </ul>
+                          </nav>
+                </div>
+            </header>
+            <hr>
+            <div class="main_page3">
+                <div class="login-form">
+                    <h2>Product Details</h2>
+                    <form>
+                        <fieldset>
+                           <legend>Select</legend>
+                           <p>
+                              <label style="color:rgb(109,109,209)">Product Item</label>
+                              <select id = "productList">
+                                <option value = "acer laptop">acer laptop</option>
+                                <option value = "acer chromebook">acer chromebook</option>
+                                <option value = "desktop">desktop</option>
+                                <option value = "hp laptop">hp laptop</option>
+                                <option value = "macbook pro">macbook pro</option>
+                                <option value = "samsung chromebook">samsung chromebook</option>
+                                <option value = "imac">imac</option>
+                                <option value = "android pixel">android pixel</option>
+                                <option value = "android lg">android lg</option>
+                                <option value = "android htc">android htc</option>
+                                <option value = "sony xperium">sony xperium</option>
+                                <option value = "Iphone 6">Iphone 6</option>
+                                <option value = "Iphone 7">Iphone 7</option>
+                                <option value = "Iphone X">Iphone X</option>
+                                <option value = "Samsung Tablet">Samsung Tablet</option>
+                                <option value = "Sony Xperia">Sony Xperia</option>
+                                <option value = "Apple TV">apple tv</option>
+                                <option value = "LG TV">lg tv</option>
+                                <option value = "Sony TV">sony tv</option>
+                              </select>
+                              <label style="color:rgb(109,109,209)">Quantity</label><input id="quantity" type="text" style="width:30%">
+                           </p>
+                          
+                        </fieldset>
+                        <button onclick="return addToCart()" class="btn">Add To Cart</button>
+                     </form>
+                     
+                </div>
+            </div>
+            <div id="order_record">
+                <table id="tb">
+                    <thead>
+                        <tr>
+                            <th>ProductName</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <button style="background-color:red">Create Sale Record</button>
+            </div>
+            <hr>
+            <footer>
+                <p>Store Manager, Copyright &copy;</p>
+            </footer>
+      <script src="./js/storeManager.js"></script>  
+    </body>
+</html>
