@@ -2,7 +2,7 @@ body {}
 * {box-sizing: border-box}
 
 /* Full-width input fields */
-input[type=text], input[type=password], input[type=image] {
+input[type=text], input[type=password], input[type=image], input[type=number] {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -59,6 +59,26 @@ button:hover {
     content: "";
     clear: both;
     display: table;
+}
+
+.edit_product_form{
+    background-color: white;
+    width:100%;
+}
+
+.edit_product_form label{
+    color:rgb(109,109,209);
+    padding:10px;
+    
+}
+
+.edit_product_form input[type=text], input[type=number]{
+    width:30%;
+}
+
+.edit_product_form button{
+    width:50%;
+    background-color: rgb(109,109,209);
 }
 
 /* Change styles for cancel button and signup button on extra small screens */

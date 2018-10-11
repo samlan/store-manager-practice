@@ -15,3 +15,11 @@ function addToCart(){
     return false;
     //
 }
+
+function editProduct(){
+    //get reference to div to append form
+    let ed = document.getElementById('edit_items');
+    let edform = document.createElement('form');
+    let edbutton = document.createElement('button');
+    
+}
