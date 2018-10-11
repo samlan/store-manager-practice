@@ -1,6 +1,15 @@
 .main_page{
     background-color: white;
-    width: 600px;
+    /*width: 600px;*/
+    width:90%;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.main_page3{
+    width:75%;
+    min-height:75%;
+    background-color: white;
     padding: 8% 0 0;
     margin: auto;
 }
@@ -21,10 +30,10 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
-    padding-left:20px;
+    padding-left:80px;
 }
 #attendant_container button{
-    width:30%;
+    width:20%;
     
 }
 
@@ -36,6 +45,8 @@ h2 {
 
 .btn{
     border: 10px;
+    border-radius: 10px;
+    border-color: red;
 }
 
 #data{
@@ -47,7 +58,7 @@ h2 {
 }
 
 table{
-    width:400px;
+    width:80%;
     margin: 0 auto;
 }
 
@@ -76,4 +87,18 @@ tr:nth-child(odd){
 tr:nth-child(even){
     color: rgb(109,109,209);
     background-color: white;
+}
+fieldset{
+    border-color: rgb(109,109,209);
+}
+
+legend,option{
+    color: red;
+}
+
+select{
+    width:100px;
+}
+#order_record button{
+    width:25%;
 }
