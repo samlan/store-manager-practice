@@ -3,6 +3,7 @@
 @import "modules/form.css";
 @import "modules/store_attendant.css";
 @import "modules/card.css";
+@import "modules/admin.css";
 body{
     font: 15px/1.5 Arial, Roboto,sans-serif;
     padding:0;
@@ -14,14 +15,16 @@ body{
 img{
   max-width: 100%;
   height: auto;
+  border-radius:10px;
 }
 .main{
   min-height: 100%;
 }
 header, footer{
+    display: block;
     background-color:rgb(109, 109, 209);
     color:white;
-    height: 25%;
+    height: 100px;
 }
  .highlight, .current a{
     color:#e8491d;
@@ -32,13 +35,39 @@ header, footer{
     float:left;
     width:30%;
   }
+
+  header nav{
+    float:left;
+    margin-top:10px;
+  }
+
+  header a{
+    color:white;
+    text-decoration:none;
+    text-transform: lowercase;
+    font-size:16px;
+  }
+  
+  header li{
+    
+    display:inline;
+    padding: 0 20px 0 20px;
+  } 
   hr{
     margin: 0px;
     border: 1px solid crimson;
   }
+
+  footer{
+    text-align: center;
+  }
 .container{
-    width: 100%;
-    overflow: hidden;
+    
+    display: -ms-grid;
+    
+}
+.container2{
+  width:80%;
 }
 
 .column {
@@ -58,11 +87,11 @@ header, footer{
   display: table;
   clear: both;
 }
-header #sign_up_button{
-    float:right;
+#sign_up_button{
+    
+    border-radius:10px;
     height:50px;
     width: 25%;
-    /*background:#e8491d;*/
     background-color:orange;
     border:0;
     margin:5px;
@@ -70,8 +99,9 @@ header #sign_up_button{
     padding-right:20px;
     color:#ffffff;
   }
-  header #log_in_button{
-    float:right;
+   #log_in_button{
+    /*float:right;*/
+    border-radius: 10px;
     height:50px;
     width:25%;
     background-color:green;
@@ -83,7 +113,8 @@ header #sign_up_button{
   }
 
   header input[type=text] {
-    width: 40%;
+    
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -93,7 +124,7 @@ header #sign_up_button{
 
 #search_n_login{
   float: right;
-  width:70%;
+  width:33%;
 }
 
   /* Boxes */
@@ -127,4 +158,28 @@ header #sign_up_button{
     padding: 12px; /* Add some padding */
     
     text-decoration: none; /* Remove underline from links */
+}
+
+* Set a style for all buttons */
+button {
+    background-color: rgb(109, 109, 209);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+.view_products{
+  width:100%;
+  background-color: white;
+  display: flex;                       /* establish flex container */
+  flex-wrap: wrap;                     /* enable flex items to wrap */
+  justify-content: space-around;
 }
