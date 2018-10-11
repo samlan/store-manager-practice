@@ -1,0 +1,104 @@
+.main_page{
+    background-color: white;
+    /*width: 600px;*/
+    width:90%;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.main_page3{
+    width:75%;
+    min-height:75%;
+    background-color: white;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.imgcontainer_2{
+    /*transform: translateY(-20%);*/
+    text-align: center;
+    margin: 24px 0 12px 0;
+    
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+#attendant_container{
+    width: 100%;
+    display: -ms-grid;
+    grid-column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-left:80px;
+}
+#attendant_container button{
+    width:20%;
+    
+}
+
+h2 {
+    /*transform: translateY(-100%);*/
+    text-align: center;
+    color:rgb(109,109,209);
+}
+
+.btn{
+    border: 10px;
+    border-radius: 10px;
+    border-color: red;
+}
+
+#data{
+    width:80%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 10%;
+}
+
+table{
+    width:80%;
+    margin: 0 auto;
+}
+
+th{
+    color:red;
+}
+td{
+    text-align: center;
+    
+}
+
+table,th,tr{
+    border: 1px solid rgb(109,109,209);
+    border-collapse: collapse;
+}
+
+th,td{
+    padding:10px;
+}
+
+tr:nth-child(odd){
+    color:white;
+    background-color: rgb(109,109,209);
+}
+
+tr:nth-child(even){
+    color: rgb(109,109,209);
+    background-color: white;
+}
+fieldset{
+    border-color: rgb(109,109,209);
+}
+
+legend,option{
+    color: red;
+}
+
+select{
+    width:100px;
+}
+#order_record button{
+    width:25%;
+}
